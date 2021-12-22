@@ -204,7 +204,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 							DX9::instance->pDevice->SetMaterial(&teapotMat[i]);
 							teapotMesh->DrawSubset(0);
 						},								// process
-						i * 300,						// x
+						i * 350,						// x
 						myApp::SCREEN_HEIGHT - 200,		// y
 						300,							// width
 						200								// height
